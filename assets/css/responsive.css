@@ -8,6 +8,15 @@
         display: none;
     }
 
+    .go-to-top-icon {
+        bottom: 5%;
+        right: 7%;
+    }
+
+    .go-to-top-icon:hover {
+        opacity: 0.8;
+    }
+
     .slider__item-price {
         border: none;
         background-color: white;
@@ -43,6 +52,11 @@
     .payment-modal {
         max-width: calc(100% - 48px);
     }
+
+    .footer__subscribe-btn:hover {
+        opacity: 1;
+    }
+    
 }
 
 
@@ -227,6 +241,12 @@
 @media (max-width: 46.1875em) {
     .hide-on-mobile {
         display: none;
+    }
+
+    .go-to-top-icon {
+        font-size: 2.4rem;
+        line-height: 2.6rem;
+        padding: 16px 20px;
     }
 
     .navbar {
