@@ -1,3 +1,4 @@
+const goToTopBtn = document.querySelector('.go-to-top-icon');
 const wrapper = document.querySelector('.slider-wrapper');
 const navItems = document.querySelectorAll('.nav__item');
 let currentProductImage = document.querySelector('.product__img');
@@ -89,8 +90,15 @@ const products = [
     },
 ]
 
-let choosenProduct = products[0];
+window.addEventListener('scroll', () => {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        goToTopBtn.style.display = 'block';
+    } else {
+        goToTopBtn.style.display = 'none';
+    }
+});
 
+let choosenProduct = products[0];
 
 navItems.forEach((item, index) => {
     item.addEventListener('click', () => {
