@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+    <div class="app">
+        <header class="app__header">
+            <nav class="navbar" id="navbar">
+                <div class="header-with-search">
+                    <div class="header__logo">
+                        <img src="./assets/img/sneakers.png" alt="" class="header__logo-img">
+                    </div>
+
+                    <div class="header__searchbar hide-on-mobile">
+                        <input type="text" class="header__searchbar-input" placeholder="Search...">
+                        <img src="./assets/img/search.png" alt="" class="header__searchbar-img">
+                    </div>
+
+                    <div class="header__searchbar-text">Limited Offer!</div>
+                </div>
+
+                <ul class="nav__list">
+                    <li class="nav__item">AIR FORCE</li>
+                    <li class="nav__item">JORDAN</li>
+                    <li class="nav__item">BLAZER</li>
+                    <li class="nav__item">CRATER</li>
+                    <li class="nav__item">HIPPIE</li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="app__container">
+            <!-- Slider -->
+            <div class="app__slider">
+                <div class="slider-wrapper">
+                    <div class="slider__item">
+                        <img src="./assets/img/air.png" alt="" class="slider__item-img">
+                        <div class="slider__item-background"></div>
+                        <h1 class="slider__item-title hide-on-mobile">AIR FORCE<br> NEW<br> SEASON</h1>
+                        <h2 class="slider__item-price">$119</h2>
+                        <a href="#product">
+                            <button class="slider__item-btn">BUY NOW!</button>
+                        </a>
+                    </div>
+
+                    <div class="slider__item">
+                        <img src="./assets/img/jordan.png" alt="" class="slider__item-img">
+                        <div class="slider__item-background"></div>
+                        <h1 class="slider__item-title hide-on-mobile">JORDAN<br> NEW<br> SEASON</h1>
+                        <h2 class="slider__item-price">$149</h2>
+                        <a href="#product">
+                            <button class="slider__item-btn">BUY NOW!</button>
+                        </a>
+                    </div>
+
+                    <div class="slider__item">
+                        <img src="./assets/img/blazer.png" alt="" class="slider__item-img">
+                        <div class="slider__item-background"></div>
+                        <h1 class="slider__item-title hide-on-mobile">BLAZER<br> NEW<br> SEASON</h1>
+                        <h2 class="slider__item-price">$109</h2>
+                        <a href="#product">
+                            <button class="slider__item-btn">BUY NOW!</button>
+                        </a>
+                    </div>
+
+                    <div class="slider__item">
+                        <img src="./assets/img/crater.png" alt="" class="slider__item-img">
+                        <div class="slider__item-background"></div>
+                        <h1 class="slider__item-title hide-on-mobile">CRATER<br> NEW<br> SEASON</h1>
+                        <h2 class="slider__item-price">$129</h2>
+                        <a href="#product">
+                            <button class="slider__item-btn">BUY NOW!</button>
+                        </a>
+                    </div>
+
+                    <div class="slider__item">
+                        <img src="./assets/img/hippie.png" alt="" class="slider__item-img">
+                        <div class="slider__item-background"></div>
+                        <h1 class="slider__item-title hide-on-mobile">HIPPIE<br> NEW<br> SEASON</h1>
+                        <h2 class="slider__item-price">$99</h2>
+                        <a href="#product">
+                            <button class="slider__item-btn">BUY NOW!</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Features -->
+            <div class="app__features">
+                <div class="feature__item">
+                    <img src="./assets/img/shipping.png" alt="" class="feature__item-img">
+                    <span class="feature__item-title">FREE SHIPPING</span>
+                    <span class="feature__item-desc">Free worldwide shipping on all orders</span>
+                </div>
+                <div class="feature__item">
+                    <img src="./assets/img/return.png" alt="" class="feature__item-img">
+                    <span class="feature__item-title">30 DAYS RETURN</span>
+                    <span class="feature__item-desc">No question return and easy refund in 14 days</span>
+                </div>
+                <div class="feature__item">
+                    <img src="./assets/img/gift.png" alt="" class="feature__item-img">
+                    <span class="feature__item-title">GIFT CARDS</span>
+                    <span class="feature__item-desc">Buy gift cards and use coupon codes easily</span>
+                </div>
+                <div class="feature__item">
+                    <img src="./assets/img/contact.png" alt="" class="feature__item-img">
+                    <span class="feature__item-title">CONTACT US!</span>
+                    <span class="feature__item-desc">Keep in touch via email and support system</span>
+                </div>
+            </div>
+
+            <!-- Product -->
+            <div class="app__product" id="product">
+                <img src="./assets/img/air.png" alt="" class="product__img">
+                <div class="product__info">
+                    <h1 class="product__name">AIR FORCE</h1>
+                    <h2 class="product__price">$119</h2>
+                    <p class="product__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eum, ratione tenetur odio, consequuntur voluptatum fuga reprehenderit aperiam adipisci repellendus dignissimos, cumque numquam minus nihil voluptates quasi asperiores quia voluptas!</p>
+                    <div class="product__colors">
+                        <div class="product__color"></div>
+                        <div class="product__color"></div>
+                    </div>
+                    <div class="product__sizes">
+                        <div class="product__size">38</div>
+                        <div class="product__size">39</div>
+                        <div class="product__size">40</div>
+                        <div class="product__size">41</div>
+                    </div>
+                    <button class="product__btn">BUY NOW!</button>
+                </div>
+            </div>
+
+            <!-- Galery -->
+            <div class="app__gallery">
+                <div class="gallery__item">
+                    <h1 class="gallery__item-title">Be Yourself!</h1>
+                    <img src="https://images.pexels.com/photos/8871469/pexels-photo-8871469.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="gallery__item-img">
+                </div>
+                <div class="gallery__item">
+                    <img src="https://images.pexels.com/photos/9623083/pexels-photo-9623083.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="gallery__item-img">
+                    <h1 class="gallery__item-title">This is the First Day of Your New Life</h1>
+                </div>
+                <div class="gallery__item">
+                    <h1 class="gallery__item-title">Just Do it!</h1>
+                    <img src="https://images.pexels.com/photos/2529157/pexels-photo-2529157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="gallery__item-img">
+                </div>
+            </div>
+
+            <!-- Advertisement -->
+            <div class="app__ads">
+                <div class="ads__item">
+                    <img src="https://images.pexels.com/photos/4753986/pexels-photo-4753986.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="ads__item-img">
+                </div>
+                <div class="ads__item">
+                    <h3 class="ads__item-label--small">SPRING NEW ARRIVALS</h3>
+                    <h1 class="ads__item-label">New Season</h1>
+                    <h1 class="ads__item-label">New Collection</h1>
+                    <a href="#navbar">
+                        <button class="ads__item-btn">CHOOSE YOUR STYLE</button>
+                    </a>
+                </div>
+                <div class="ads__item">
+                    <img src="https://images.pexels.com/photos/7856965/pexels-photo-7856965.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="ads__item-img">
+                </div>
+            </div>
+
+        </div>
+
+        <footer class="app__footer">
+            <div class="app__footer-left-side">
+                <div class="footer__menu">
+                    <h1 class="footer__title">About Us</h1>
+                    <ul class="footer__list">
+                        <li class="footer__item">Company</li>
+                        <li class="footer__item">Contact</li>
+                        <li class="footer__item">Careers</li>
+                        <li class="footer__item">Affiliates</li>
+                        <li class="footer__item">Stores</li>
+                    </ul>
+                </div>
+                <div class="footer__menu">
+                    <h1 class="footer__title">Useful Links</h1>
+                    <ul class="footer__list">
+                        <li class="footer__item">Support</li>
+                        <li class="footer__item">Refund</li>
+                        <li class="footer__item">FAQ</li>
+                        <li class="footer__item">Feedback</li>
+                        <li class="footer__item">Stories</li>
+                    </ul>
+                </div>
+                <div class="footer__menu">
+                    <h1 class="footer__title">Products</h1>
+                    <ul class="footer__list">
+                        <li class="footer__item">Air Force</li>
+                        <li class="footer__item">Air Jordan</li>
+                        <li class="footer__item">Blazer</li>
+                        <li class="footer__item">Crater</li>
+                        <li class="footer__item">Hippie</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="app__footer-right-side">
+                <div class="footer__sub-menu">
+                    <h1 class="footer__title">Subscribe to our newsletter</h1>
+                    <div class="footer__subscribe">
+                        <input type="email" placeholder="Enter your email" class="footer__subscribe-input">
+                        <button class="footer__subscribe-btn">Join us!</button>
+                    </div>
+                </div>
+                <div class="footer__sub-menu">
+                    <h1 class="footer__title">Follow Us</h1>
+                    <div class="footer__social-icons">
+                        <img src="./assets/img/facebook.png" alt="" class="footer__social-icon">
+                        <img src="./assets/img/twitter.png" alt="" class="footer__social-icon">
+                        <img src="./assets/img/instagram.png" alt="" class="footer__social-icon">
+                        <img src="./assets/img/whatsapp.png" alt="" class="footer__social-icon">
+                    </div>
+                </div>
+                <div class="footer__sub-menu">
+                    <span class="footer__copyright">@nhm204 - All rights reserved - 2022</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Payment Modal -->
+    <div class="app__modal">
+        <div class="payment-modal">
+            <h1 class="payment-modal__title">Personal Information</h1>
+            <label for="fullname">Name and Surname</label>
+            <input type="text" placeholder="My Nguyen" class="payment-modal__input" id="fullname" required>
+            <label for="phonenumber">Phone Number</label>
+            <input type="text" placeholder="+84 000 000 000" class="payment-modal__input" id="phonenumber" required>
+            <label for="address">Address</label>
+            <input type="text" placeholder="Ho Chi Minh City" class="payment-modal__input" id="address" required>
+    
+            <h1 class="payment-modal__title">Card Information</h1>
+            <div class="card__icons">
+                <img src="./assets/img/visa.png" width="40" alt="" class="card__icon">
+                <img src="./assets/img/master.png" alt="" width="40" class="card__icon">
+            </div>
+            <input type="password" class="payment-modal__input" placeholder="Card Number" required>
+            <div class="card__info">
+                <input type="text" placeholder="mm" class="payment-modal__input sm" required>
+                <input type="text" placeholder="yyyy" class="payment-modal__input sm" required>
+                <input type="text" placeholder="cvv" class="payment-modal__input sm" required>
+            </div>
+            <input class="payment-modal__btn" type="submit" value="Checkout!">
+            <span class="payment-modal__close-btn">X</span>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>

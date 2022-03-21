@@ -1,0 +1,40 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #111;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; /* 100% = 16 px => 62.5% = 10px */
+    line-height: 1.6rem;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.sm {
+    width: 30%;
+}
+
+
+/* Animation */
+@keyframes modalDropDown {
+    from {
+        opacity: 0;
+        transform: translateY(-150px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(-20px);
+    }
+}
+  
